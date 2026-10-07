@@ -1,0 +1,7 @@
+- name: Setup Maven with OAuth Access Token
+  # You may pin to the exact commit or the version.
+  # uses: curityio/curity-maven-gh-action@23d84d472970b70187511f08fe57f8e1383e5ddd
+  uses: curityio/curity-maven-gh-action@v1
+  with:
+    # OAuth client secret
+    client-secret: 
